@@ -1,0 +1,416 @@
+@charset "UTF-8";
+/**************公用部分****************/
+.hide {
+  display: none !important; }
+
+.detail_page {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; }
+
+.public_card {
+  width: 94%;
+  height: 140px;
+  border-radius: 5px;
+  margin-left: 3%;
+  margin-top: 16px;
+  background-color: #eee; }
+
+.empty_box {
+  font-size: 19px;
+  color: #333333;
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 910px;
+  top: 0; }
+  .empty_box img {
+    width: 172px;
+    height: 114px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 18px; }
+
+.slide_menu {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #3a7291; }
+  .slide_menu .fanye {
+    width: 75px; }
+    .slide_menu .fanye:first-child {
+      text-align: right;
+      padding-right: 10px; }
+    .slide_menu .fanye:last-child {
+      text-align: left;
+      padding-left: 10px; }
+  .slide_menu a {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 22px; }
+    .slide_menu a:hover {
+      background-color: #eb454f;
+      color: #ffffff; }
+  .slide_menu .active {
+    color: #ffffff;
+    background-color: #eb454f; }
+
+/**************个人中心****************/
+.personal_title {
+  width: 140px; }
+
+.center .center_left {
+  height: 480px !important; }
+  .center .center_left .center_box1 {
+    height: 31% !important; }
+    .center .center_left .center_box1 img {
+      width: 18px;
+      height: 18px;
+      vertical-align: middle; }
+    .center .center_left .center_box1 span {
+      vertical-align: middle; }
+    .center .center_left .center_box1 a {
+      display: inline-block;
+      width: 48px;
+      height: 24px;
+      border-radius: 5px;
+      background-color: #eb454f;
+      color: #fff;
+      font-size: 15px;
+      margin-left: 16px;
+      line-height: 24px;
+      text-align: center; }
+      .center .center_left .center_box1 a:hover {
+        background-color: #c01133; }
+  .center .center_left .center_box2 {
+    width: 100%;
+    border-top: 2px solid #f3f3f3;
+    color: #333333; }
+    .center .center_left .center_box2 a {
+      color: #333 !important; }
+    .center .center_left .center_box2 .selected {
+      background-color: #C01133; }
+      .center .center_left .center_box2 .selected a {
+        color: #fff !important; }
+      .center .center_left .center_box2 .selected span {
+        padding-left: 20px; }
+      .center .center_left .center_box2 .selected i {
+        background: transparent !important; }
+    .center .center_left .center_box2 li:hover {
+      background-color: #C01133; }
+      .center .center_left .center_box2 li:hover a {
+        color: #fff !important; }
+      .center .center_left .center_box2 li:hover span {
+        padding-left: 20px; }
+      .center .center_left .center_box2 li:hover i {
+        background: transparent !important; }
+    .center .center_left .center_box2 li {
+      height: 50px;
+      width: 100%;
+      margin-bottom: 5px;
+      cursor: pointer;
+      transition: all .3s;
+      box-sizing: border-box; }
+      .center .center_left .center_box2 li a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      .center .center_left .center_box2 li span {
+        float: left;
+        line-height: 50px;
+        margin-left: 30px;
+        transition: padding 0.5s; }
+        .center .center_left .center_box2 li span i {
+          width: 20px;
+          height: 50px;
+          float: left;
+          margin-right: 20px; }
+      .center .center_left .center_box2 li b {
+        float: right;
+        line-height: 50px;
+        margin-right: 20px; }
+.center .center_right .problem_page {
+  line-height: 26px; }
+  .center .center_right .problem_page ul {
+    width: 94%;
+    height: 100%;
+    margin: 30px auto;
+    font-size: 20px;
+    color: #333333; }
+    .center .center_right .problem_page ul li {
+      margin-left: 20px;
+      font-size: 14px;
+      color: #666666;
+      margin-top: 30px; }
+      .center .center_right .problem_page ul li h1 {
+        font-weight: 500;
+        font-size: 16px;
+        color: #333333; }
+.center .center_right .record_page {
+  padding-top: 30px;
+  box-sizing: border-box; }
+  .center .center_right .record_page .order-area {
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto; }
+    .center .center_right .record_page .order-area .center_card {
+      width: 100%;
+      margin-left: 0px; }
+      .center .center_right .record_page .order-area .center_card .card_in {
+        float: left;
+        margin-left: 3%;
+        width: 94%;
+        height: 94%; }
+        .center .center_right .record_page .order-area .center_card .card_in .order_number {
+          width: 100%;
+          height: 40px;
+          font-size: 16px;
+          line-height: 40px;
+          color: #333333; }
+          .center .center_right .record_page .order-area .center_card .card_in .order_number b {
+            font-weight: 500;
+            color: #c01133; }
+        .center .center_right .record_page .order-area .center_card .card_in .order_bottom {
+          width: 100%;
+          height: 100px; }
+          .center .center_right .record_page .order-area .center_card .card_in .order_bottom > div {
+            float: left; }
+          .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_left {
+            width: 454px;
+            height: 100%; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_left .jifen {
+              width: 100%;
+              height: 50px;
+              font-size: 22px;
+              line-height: 48px;
+              color: #e6133c; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_left .jifen span {
+                float: left; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_left .jifen i {
+                height: 100%;
+                width: 26px;
+                margin-left: 20px;
+                float: left;
+                background: url("../img/blb-iconbig.png") no-repeat center; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_left .time {
+              width: 100%;
+              font-size: 14px;
+              line-height: 50px;
+              color: #999; }
+          .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_middle {
+            float: right;
+            width: 200px;
+            height: 100%;
+            font-size: 14px;
+            color: #999999;
+            line-height: 28px; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_middle span {
+              color: #666666; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_middle span b {
+                font-size: 16px;
+                font-weight: 500; }
+          .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right {
+            width: 8%;
+            height: 100%;
+            float: right;
+            position: relative; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 {
+              position: absolute; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 > span {
+                float: right;
+                margin-top: 16px;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background-image: url("../img/errordown.png");
+                cursor: pointer; }
+                .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 > span:hover {
+                  background-image: url("../img/error.png"); }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 > div {
+                box-sizing: border-box;
+                float: left;
+                width: 100%;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 5px;
+                cursor: pointer; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 .pay {
+                background-color: #eb454f;
+                margin-bottom: 10px; }
+                .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 .pay a {
+                  color: #fff; }
+                .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 .pay:hover {
+                  background-color: #c01133; }
+              .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 .cancel {
+                border: 1px solid #eb454f;
+                background-color: #fff; }
+                .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1 .cancel > a {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  color: #eb454f; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1_1 {
+              z-index: 10; }
+            .center .center_right .record_page .order-area .center_card .card_in .order_bottom .order_right .order_right_1_2 {
+              z-index: 20;
+              background-color: #eee; }
+  .center .center_right .record_page .order-menu {
+    margin-top: 5px; }
+.center .center_right .message_page {
+  overflow-y: auto; }
+  .center .center_right .message_page .message_card {
+    width: 94%;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 16px;
+    background-color: #eee;
+    display: inline-table; }
+    .center .center_right .message_page .message_card .horn {
+      float: left;
+      width: 26px;
+      height: 26px;
+      margin: 20px 20px 0px 20px; }
+    .center .center_right .message_page .message_card .message_text {
+      float: left;
+      width: 688px;
+      font-size: 16px;
+      color: #333333;
+      line-height: 26px;
+      padding-top: 16px; }
+      .center .center_right .message_page .message_card .message_text p {
+        overflow: hidden;
+        height: 52px;
+        position: relative; }
+        .center .center_right .message_page .message_card .message_text p i {
+          display: none;
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          background-color: #eee;
+          z-index: 100; }
+      .center .center_right .message_page .message_card .message_text > span {
+        color: #999999;
+        font-size: 14px;
+        float: right;
+        margin-top: 20px; }
+      .center .center_right .message_page .message_card .message_text > div {
+        width: 100%;
+        height: 16px;
+        line-height: 16px;
+        margin-top: 20px; }
+        .center .center_right .message_page .message_card .message_text > div > span {
+          display: block;
+          width: 80px;
+          height: 16px;
+          margin: auto;
+          font-size: 14px;
+          color: #eb454f;
+          cursor: pointer; }
+          .center .center_right .message_page .message_card .message_text > div > span i {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: url(../img/show1.png);
+            vertical-align: top;
+            margin-right: 6px; }
+    .center .center_right .message_page .message_card .error {
+      width: 24px;
+      height: 120px;
+      float: right;
+      margin-right: 40px;
+      border-radius: 50%;
+      line-height: 120px; }
+      .center .center_right .message_page .message_card .error > img {
+        cursor: pointer; }
+.center .center_right .collection_page .slide_area {
+  height: 90%;
+  width: 87%;
+  position: relative;
+  margin: auto;
+  overflow: hidden; }
+  .center .center_right .collection_page .slide_area span {
+    float: left;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer; }
+    .center .center_right .collection_page .slide_area span a > img {
+      width: 110px;
+      height: 110px; }
+    .center .center_right .collection_page .slide_area span a > div {
+      padding: 10px 0 10px 0; }
+    .center .center_right .collection_page .slide_area span a:hover {
+      color: #eb454f; }
+  .center .center_right .collection_page .slide_area .last {
+    float: right;
+    margin-right: 0px; }
+.center .center_right .exchange-page {
+  box-sizing: border-box;
+  padding-top: 30px;
+  height: 90%; }
+  .center .center_right .exchange-page > div {
+    width: 94%;
+    height: 140px;
+    position: relative;
+    margin: auto;
+    margin-top: 16px;
+    background-color: #eee;
+    box-sizing: border-box;
+    padding: 10px 17px;
+    border-radius: 5px; }
+    .center .center_right .exchange-page > div > img {
+      float: left;
+      width: 180px;
+      height: 120px;
+      margin-right: 17px; }
+    .center .center_right .exchange-page > div > div {
+      float: left;
+      height: 100%;
+      width: 72%; }
+      .center .center_right .exchange-page > div > div > h1 {
+        height: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      .center .center_right .exchange-page > div > div > p {
+        color: #999;
+        font-size: 16px;
+        line-height: 30px; }
+        .center .center_right .exchange-page > div > div > p > i {
+          color: #333; }
+      .center .center_right .exchange-page > div > div > div {
+        width: 100%;
+        height: 20px;
+        font-size: 22px;
+        font-style: oblique;
+        line-height: 20px;
+        color: #eb454f;
+        margin-top: 6px; }
+        .center .center_right .exchange-page > div > div > div > i {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          background: url(../img/blb-icon.png) no-repeat center;
+          margin-right: 10px;
+          vertical-align: top; }
+    .center .center_right .exchange-page > div > i {
+      float: left;
+      width: 24px;
+      height: 100%;
+      line-height: 120px; }
+      .center .center_right .exchange-page > div > i > img {
+        cursor: pointer; }
+
+.center_menu {
+  margin-top: 10px !important; }
+
+/*# sourceMappingURL=personal_center.css.map */

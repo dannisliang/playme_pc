@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/************公用部分************/
+.recharge_box {
+  float: left;
+  background-color: #ffffff; }
+  .recharge_box .detail_box {
+    width: 100%;
+    height: 100%;
+    display: block; }
+    .recharge_box .detail_box span {
+      float: left; }
+    .recharge_box .detail_box .detail {
+      width: 87%;
+      margin: auto; }
+
+/************充值中心************/
+.recharge_title {
+  width: 140px; }
+
+.recharge .whole_recharge {
+  width: 1195px;
+  height: 625px;
+  position: relative;
+  margin: auto;
+  top: 70px;
+  color: #333; }
+  .recharge .whole_recharge .recharge_left {
+    width: 260px;
+    height: 300px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center; }
+    .recharge .whole_recharge .recharge_left .box1 {
+      width: 100%;
+      height: 164px; }
+      .recharge .whole_recharge .recharge_left .box1 .head {
+        width: 110px;
+        height: 110px;
+        margin-top: -54px;
+        margin-bottom: 22px; }
+      .recharge .whole_recharge .recharge_left .box1 .blb-icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        vertical-align: bottom; }
+      .recharge .whole_recharge .recharge_left .box1 span {
+        color: #c01133; }
+        .recharge .whole_recharge .recharge_left .box1 span i {
+          font-weight: 700; }
+    .recharge .whole_recharge .recharge_left .box2 {
+      width: 100%;
+      height: 40%;
+      color: #c01133;
+      border-top: 2px solid #f3f3f3; }
+      .recharge .whole_recharge .recharge_left .box2 li {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        line-height: 50px;
+        margin: 5px 0;
+        cursor: pointer; }
+        .recharge .whole_recharge .recharge_left .box2 li > a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #c01133;
+          background-color: #fff; }
+          .recharge .whole_recharge .recharge_left .box2 li > a:hover {
+            background-color: #c01133;
+            color: #fff; }
+        .recharge .whole_recharge .recharge_left .box2 li span {
+          float: left;
+          margin-left: 60px;
+          transition: margin-left 0.5s; }
+        .recharge .whole_recharge .recharge_left .box2 li b {
+          float: right;
+          margin-right: 20px; }
+        .recharge .whole_recharge .recharge_left .box2 li:hover span {
+          margin-left: 80px; }
+      .recharge .whole_recharge .recharge_left .box2 .li2 {
+        margin-top: 64px; }
+      .recharge .whole_recharge .recharge_left .box2 .selected {
+        background-color: #c01133;
+        color: #fff; }
+        .recharge .whole_recharge .recharge_left .box2 .selected span {
+          margin-left: 80px; }
+  .recharge .whole_recharge .recharge_right {
+    width: 910px;
+    height: 585px; }
+    .recharge .whole_recharge .recharge_right .recharge_page .detail_title {
+      height: 4%;
+      font-size: 18px;
+      padding-top: 30px; }
+    .recharge .whole_recharge .recharge_right .recharge_page .detail_top {
+      height: 31%;
+      font-size: 22px;
+      text-align: center;
+      line-height: 45px; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top span {
+        width: 135px;
+        height: 45px;
+        color: #cacaca;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        margin-right: 50px;
+        margin-top: 28px;
+        overflow: hidden;
+        cursor: pointer;
+        font-weight: 500; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top .span_selected {
+        background-color: #c01133;
+        color: #ffffff; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top .row1 {
+        margin-top: 16px; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top .detail_first {
+        margin-left: 90px; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top .last {
+        margin-right: 0px; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top input {
+        float: left;
+        width: 184px;
+        height: 45px;
+        color: #c01133;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        background-color: #f4f4f4;
+        margin-top: 28px;
+        line-height: 45px;
+        font-size: 22px;
+        text-align: center; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_top input::-webkit-input-placeholder {
+          font-family: "Microsoft YaHei"; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_top input::-ms-input-placeholder {
+          font-family: "Microsoft YaHei"; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_top input::-moz-placeholder {
+          font-family: "Microsoft YaHei"; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_top b {
+        float: right;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 45px;
+        margin-right: 4px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_top b > img {
+          height: 16px;
+          width: 16px;
+          margin-right: 4px;
+          vertical-align: -4%; }
+    .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom {
+      height: 57%;
+      border-top: 1px solid #cacaca; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .title_bottom {
+        margin-top: 8px;
+        margin-left: 0px;
+        height: 6%; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .calculate {
+        width: 100%;
+        height: 60px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .calculate span {
+          height: 40px;
+          margin-right: 10px;
+          margin-top: 20px;
+          cursor: pointer; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .calculate .integration {
+          float: left;
+          width: 250px;
+          height: 40px;
+          margin-top: 20px;
+          margin-left: 40px;
+          margin-right: 50px;
+          border: 1px solid #cacaca;
+          font-size: 28px;
+          text-align: center;
+          line-height: 40px;
+          cursor: text;
+          color: #eb413d; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .calculate .calculate_first {
+          margin-left: 90px; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral {
+        width: 100%;
+        height: 156px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .box {
+          width: 100%; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .check {
+          float: right;
+          margin-top: 90px;
+          margin-right: 270px; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .check input {
+            width: 17px;
+            height: 17px;
+            border: 0px;
+            cursor: pointer; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .check label {
+            font-family: "Microsoft YaHei";
+            font-size: 16px;
+            vertical-align: bottom;
+            cursor: pointer; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral > .box1 {
+          height: 56%;
+          font-size: 18px; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral > .box1 i {
+            color: #eb413d; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral > .box1 span {
+            margin-top: 50px;
+            margin-left: 86px;
+            line-height: 22px; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral > .box1 img {
+            vertical-align: bottom;
+            margin-right: 10px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .box2 {
+          height: 44%;
+          font-size: 16px;
+          color: #666666; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .box2 span {
+            margin-top: 10px;
+            margin-left: 118px; }
+            .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .integral .box2 span i {
+              font-weight: 700; }
+      .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .account {
+        width: 100%;
+        height: 60px;
+        background-color: #f1f1f1;
+        font-size: 24px;
+        color: #c01133;
+        line-height: 60px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .account span {
+          margin-left: 20px; }
+          .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .account span .decimal {
+            font-size: 22px; }
+        .recharge .whole_recharge .recharge_right .recharge_page .detail_bottom .account button {
+          height: 100%;
+          width: 30%;
+          font-size: 22px;
+          border-radius: 0px;
+          float: right; }
+    .recharge .whole_recharge .recharge_right .record_page {
+      overflow-y: auto; }
+      .recharge .whole_recharge .recharge_right .record_page .card {
+        width: 94%;
+        height: 125px;
+        background-color: #f8f8f8;
+        color: #666666;
+        margin: 30px auto; }
+        .recharge .whole_recharge .recharge_right .record_page .card .card_child {
+          float: left;
+          height: 100%; }
+        .recharge .whole_recharge .recharge_right .record_page .card .card_left {
+          width: 60%;
+          margin-left: 36px; }
+          .recharge .whole_recharge .recharge_right .record_page .card .card_left .card_title {
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            line-height: 40px; }
+          .recharge .whole_recharge .recharge_right .record_page .card .card_left .jinE {
+            width: 100%;
+            height: 28px;
+            margin-bottom: 16px;
+            color: #999999; }
+            .recharge .whole_recharge .recharge_right .record_page .card .card_left .jinE i {
+              color: #666666; }
+            .recharge .whole_recharge .recharge_right .record_page .card .card_left .jinE b {
+              color: #666666;
+              font-size: 14px; }
+            .recharge .whole_recharge .recharge_right .record_page .card .card_left .jinE .decimal {
+              font-size: 12px; }
+        .recharge .whole_recharge .recharge_right .record_page .card .card_right {
+          width: 32%; }
+          .recharge .whole_recharge .recharge_right .record_page .card .card_right span {
+            display: inline-block; }
+          .recharge .whole_recharge .recharge_right .record_page .card .card_right .red {
+            width: 100%;
+            height: 80px;
+            font-size: 22px;
+            color: #ec133c;
+            line-height: 122px;
+            text-align: right; }
+          .recharge .whole_recharge .recharge_right .record_page .card .card_right .time_record {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            color: #999999;
+            line-height: 57px;
+            text-align: right; }
+
+/*# sourceMappingURL=recharge.css.map */

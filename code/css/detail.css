@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/**************公用部分****************/
+.detail-pop div {
+  box-sizing: border-box; }
+
+.left-box {
+  width: 100%;
+  height: 340px;
+  border: 1px solid #cacaca; }
+
+.fanye {
+  margin-top: 140px;
+  width: 40px;
+  height: 80px; }
+
+/**************游戏详情****************/
+.gameDetail-title {
+  width: 140px; }
+
+.game_box {
+  height: 736px !important;
+  width: 414px !important;
+  top: 30px !important; }
+  .game_box iframe {
+    width: 90%;
+    position: relative;
+    height: 667px;
+    width: 375px;
+    left: 19.5px;
+    top: 50px;
+    background: #777777;
+    border: 0; }
+  .game_box .rotate {
+    position: absolute;
+    top: 0;
+    background: url(../img/rotate.png) no-repeat;
+    width: 130px;
+    height: 30px;
+    background-size: auto  100%;
+    padding-left: 35px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px; }
+
+.detail-pop {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  height: auto; }
+  .detail-pop .gameDetail-box {
+    height: auto;
+    top: 20px; }
+    .detail-pop .gameDetail-box .gameDetail-left {
+      float: left;
+      width: 915px;
+      height: auto;
+      margin-right: 30px; }
+      .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top {
+        margin-bottom: 20px;
+        padding: 30px;
+        height: auto;
+        display: inline-table; }
+        .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top > i {
+          width: 110px;
+          float: left;
+          margin-right: 30px; }
+          .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top > i > img {
+            width: 110px;
+            height: 110px; }
+        .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text {
+          width: 713px;
+          float: left;
+          font-size: 15px;
+          color: #999999;
+          line-height: 26px; }
+          .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .jieshao h1 {
+            width: 100%;
+            height: 20px;
+            display: inline-block;
+            text-align: left;
+            font-size: 20px;
+            line-height: 20px;
+            color: #666666;
+            font-weight: 500;
+            margin-bottom: 7px; }
+          .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .jieshao p {
+            margin-top: 10px;
+            margin-bottom: 26px; }
+          .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi {
+            width: 100%;
+            height: 60px;
+            margin-top: 50px; }
+            .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi > button {
+              float: left;
+              width: 270px;
+              height: 45px;
+              font-size: 24px;
+              line-height: 45px;
+              margin-right: 50px;
+              background-color: #fff;
+              border: 1px solid #eb454f;
+              color: #eb454f; }
+              .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi > button b {
+                display: inline-block;
+                vertical-align: bottom;
+                width: 20px;
+                height: 45px;
+                background: url("../img/blb-icon.png") no-repeat center;
+                margin-right: 10px; }
+              .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi > button:hover {
+                background-color: #fff; }
+            .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi span {
+              float: left; }
+              .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi span > img {
+                cursor: pointer; }
+              .detail-pop .gameDetail-box .gameDetail-left .gameDetail-top .detail-text .kaishi span > div {
+                margin-top: -10px; }
+      .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom {
+        height: 360px; }
+        .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .detail-left {
+          float: left;
+          background-image: url("../img/left2.png"); }
+        .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .detail-right {
+          float: right;
+          background-image: url("../img/right2.png"); }
+        .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .gameDetail-show {
+          width: 516px;
+          height: 252px;
+          float: left;
+          margin-top: 50px;
+          margin-left: 150px;
+          overflow: hidden; }
+          .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .gameDetail-show .detail-slide {
+            height: 252px;
+            transition: left 0.4s;
+            position: relative;
+            left: 0px; }
+            .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .gameDetail-show .detail-slide > div {
+              position: absolute;
+              width: 516px;
+              height: 252px;
+              display: none; }
+              .detail-pop .gameDetail-box .gameDetail-left .gameDetail-bottom .gameDetail-show .detail-slide > div > img {
+                width: 516px;
+                height: 252px; }
+    .detail-pop .gameDetail-box .gameDetail-right {
+      float: left;
+      width: 250px;
+      height: 720px;
+      border: 1px solid #cacaca;
+      color: #999999;
+      font-size: 14px; }
+      .detail-pop .gameDetail-box .gameDetail-right .tuijian-title {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #666666;
+        font-size: 20px;
+        background-color: #f7f7f7; }
+      .detail-pop .gameDetail-box .gameDetail-right span {
+        cursor: pointer; }
+        .detail-pop .gameDetail-box .gameDetail-right span a {
+          color: #999; }
+          .detail-pop .gameDetail-box .gameDetail-right span a > img {
+            width: 80px;
+            height: 80px; }
+          .detail-pop .gameDetail-box .gameDetail-right span a > div {
+            overflow: hidden;
+            width: 84px;
+            height: 18px;
+            text-align: center; }
+          .detail-pop .gameDetail-box .gameDetail-right span a:hover {
+            color: #eb454f; }
+      .detail-pop .gameDetail-box .gameDetail-right .tuijian-left {
+        float: left;
+        margin-bottom: 26px;
+        margin-left: 28px; }
+      .detail-pop .gameDetail-box .gameDetail-right .tuijian-right {
+        float: right;
+        margin-bottom: 26px;
+        margin-right: 28px; }
+      .detail-pop .gameDetail-box .gameDetail-right .tuijian-first {
+        margin-top: 26px; }
+
+/**********确认购买框************/
+.buy .buy_box {
+  width: 720px;
+  height: 360px; }
+  .buy .buy_box .buy-title {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    padding-left: 40px;
+    line-height: 70px;
+    background-color: #f5f5f5;
+    font-size: 18px;
+    color: #c01133; }
+    .buy .buy_box .buy-title i {
+      font-weight: 700; }
+    .buy .buy_box .buy-title b {
+      vertical-align: top;
+      display: inline-block;
+      width: 20px;
+      height: 70px;
+      background: url(../img/blb-icon.png) no-repeat center;
+      margin-left: 10px; }
+  .buy .buy_box .buy-text {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    line-height: 200px;
+    text-align: center;
+    color: #666; }
+    .buy .buy_box .buy-text i {
+      color: #333; }
+  .buy .buy_box .buy-bottom {
+    width: 100%;
+    height: 81px;
+    border-radius: 0 0 15px 15px;
+    background-color: #f5f5f5; }
+    .buy .buy_box .buy-bottom span {
+      width: 220px;
+      margin-top: 18px;
+      font-size: 20px; }
+      .buy .buy_box .buy-bottom span a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff; }
+      .buy .buy_box .buy-bottom span:first-child {
+        float: left;
+        margin-left: 50px;
+        background-color: #fff;
+        color: #eb454f;
+        border: 1px solid #eb454f; }
+      .buy .buy_box .buy-bottom span:last-child {
+        float: right;
+        margin-right: 50px; }
+
+.saoyisao > div {
+  width: 450px;
+  height: 400px;
+  text-align: center;
+  font-size: 32px;
+  color: #666;
+  line-height: 40px;
+  padding-top: 20px; }
+  .saoyisao > div > h1 {
+    margin-bottom: 20px; }
+  .saoyisao > div > img {
+    width: 280px;
+    height: 280px; }
+
+/*# sourceMappingURL=detail.css.map */

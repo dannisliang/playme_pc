@@ -1,0 +1,155 @@
+/********************公共部分*********************/
+.category-active {
+  background-color: #fff;
+  color: #eb454f !important;
+}
+
+.active {
+  color: #fff !important;
+  background-color: #eb454f;
+}
+
+.tap-category {
+  font-family: "Microsoft YaHei";
+  width: 100%;
+  height: 50px;
+  background-color: #eb454f;
+  .tap-in {
+    height: 100%;
+    width: 1195px;
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    i {
+      margin-right: 40px;
+    }
+    a {
+      display: inline-block;
+      width: 70px;
+      height: 30px;
+      margin-right: 40px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+      &:hover {
+        background-color: #ffffff;
+        color: #eb454f;
+      }
+    }
+  }
+}
+
+/********************游戏分类*********************/
+.title-image-category {
+  width: 100%;
+  height: 300px;
+  background: url("../img/banner/banner0.png") no-repeat center;
+}
+
+.category-pop {
+  background-color: #ffffff;
+  height: auto;
+  padding-bottom: 30px;
+  .main-category {
+    height: auto;
+    top: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #cacaca;
+    overflow: hidden;
+    &>span {
+      width: 520px;
+      height: 120px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #999999;
+      & > a {
+        float: left;
+        margin: 20px;
+        cursor: pointer;
+        img{
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .category-middle {
+        display: inline-block;
+        padding-top: 20px;
+        width: 280px;
+        a {
+          font-size: 20px;
+          color: #333;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            color: #eb454f;
+          }
+        }
+        p {
+          overflow: hidden;
+          margin-top: 12px;
+          height: 18px;
+          .fire {
+            width: 15px;
+            height: 17px;
+            margin-right: 10px;
+          }
+        }
+      }
+      &>span {
+        display: inline-block;
+        width: 70px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #eb454f;
+        background-color: #ffffff;
+        color: #eb454f;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        float: right;
+        margin: 44px 20px 44px 0;
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #eb454f;
+          &:hover {
+            background-color: #eb454f;
+            color: #fff !important;
+          }
+        }
+      }
+    }
+    .gameCard-left {
+      float: left;
+      margin: 20px 50px 20px 30px;
+    }
+    .gameCard-right {
+      float: right;
+      margin: 20px 40px 20px 0;
+    }
+  }
+}
+
+//游戏存在界面上面文字
+.search-pop {
+  .search-box {
+    .exist-search {
+      & > h2 {
+        color: #999;
+        padding-top: 25px;
+        padding-right: 35px;
+        padding-left: 35px;
+        font-size: 20px;
+        & > i {
+          color: #eb454f;
+        }
+      }
+    }
+  }
+}

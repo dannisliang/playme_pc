@@ -1,0 +1,369 @@
+/************公用部分************/
+.recharge_box {
+  float: left;
+  background-color: #ffffff;
+  .detail_box {
+    width: 100%;
+    height: 100%;
+    display: block;
+    span {
+      float: left;
+    }
+    .detail {
+      width: 87%;
+      margin: auto;
+    }
+  }
+}
+
+/************充值中心************/
+.recharge_title {
+  width: 140px;
+}
+
+.recharge {
+  .whole_recharge {
+    width: 1195px;
+    height: 625px;
+    position: relative;
+    margin: auto;
+    top: 70px;
+    color: #333;
+    .recharge_left {
+      width: 260px;
+      height: 300px;
+      margin-right: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+      .box1 {
+        width: 100%;
+        height: 164px;
+        .head {
+          width: 110px;
+          height: 110px;
+          margin-top: -54px;
+          margin-bottom: 22px;
+        }
+        .blb-icon {
+          width: 18px;
+          height: 18px;
+          margin-right: 10px;
+          vertical-align: bottom;
+        }
+        span {
+          color: #c01133;
+          i {
+            font-weight: 700;
+          }
+        }
+      }
+
+      .box2 {
+        width: 100%;
+        height: 40%;
+        color: #c01133;
+        border-top: 2px solid #f3f3f3;
+        li {
+          width: 100%;
+          height: 50px;
+          font-size: 18px;
+          line-height: 50px;
+          margin: 5px 0;
+          cursor: pointer;
+          &>a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #c01133;
+            background-color: #fff;
+            &:hover{
+              background-color: #c01133;
+              color: #fff;
+            }
+          }
+          span {
+            float: left;
+            margin-left: 60px;
+            transition: margin-left 0.5s;
+          }
+          b {
+            float: right;
+            margin-right: 20px;
+          }
+          &:hover {
+            span {
+              margin-left: 80px;
+            }
+          }
+        }
+        .li2 {
+          margin-top: 64px;
+        }
+        .selected {
+          background-color: #c01133;
+          color: #fff;
+          span {
+            margin-left: 80px;
+          }
+        }
+      }
+    }
+
+    .recharge_right {
+      width: 910px;
+      height: 585px;
+      .recharge_page {
+        .detail_title {
+          height: 4%;
+          font-size: 18px;
+          padding-top: 30px;
+        }
+        .detail_top {
+          height: 31%;
+          font-size: 22px;
+          text-align: center;
+          line-height: 45px;
+          span {
+            width: 135px;
+            height: 45px;
+            color: #cacaca;
+            border: 1px solid #cacaca;
+            border-radius: 5px;
+            margin-right: 50px;
+            margin-top: 28px;
+            overflow: hidden;
+            cursor: pointer;
+            font-weight: 500;
+          }
+          .span_selected {
+            background-color: #c01133;
+            color: #ffffff;
+          }
+          .row1 {
+            margin-top: 16px;
+          }
+          .detail_first {
+            margin-left: 90px;
+          }
+          .last {
+            margin-right: 0px;
+          }
+          input {
+            float: left;
+            width: 184px;
+            height: 45px;
+            color: #c01133;
+            border: 1px solid #cacaca;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            margin-top: 28px;
+            line-height: 45px;
+            font-size: 22px;
+            text-align: center;
+            &::-webkit-input-placeholder {
+              font-family: "Microsoft YaHei";
+            }
+            &::-ms-input-placeholder {
+              font-family: "Microsoft YaHei";
+            }
+            &::-moz-placeholder {
+              font-family: "Microsoft YaHei";
+            }
+          }
+          b {
+            & > img {
+              height: 16px;
+              width: 16px;
+              margin-right: 4px;
+              vertical-align: -4%;
+            }
+            float: right;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 45px;
+            margin-right: 4px;
+          }
+        }
+
+        .detail_bottom {
+          height: 57%;
+          border-top: 1px solid #cacaca;
+          .title_bottom {
+            margin-top: 8px;
+            margin-left: 0px;
+            height: 6%;
+          }
+
+          .calculate {
+            width: 100%;
+            height: 60px;
+            span {
+              height: 40px;
+              margin-right: 10px;
+              margin-top: 20px;
+              cursor: pointer;
+            }
+            .integration {
+              float: left;
+              width: 250px;
+              height: 40px;
+              margin-top: 20px;
+              margin-left: 40px;
+              margin-right: 50px;
+              border: 1px solid #cacaca;
+              font-size: 28px;
+              text-align: center;
+              line-height: 40px;
+              cursor: text;
+              color: #eb413d;
+            }
+            .calculate_first {
+              margin-left: 90px;
+            }
+          }
+
+          .integral {
+            width: 100%;
+            height: 156px;
+            .box {
+              width: 100%;
+            }
+            .check {
+              float: right;
+              margin-top: 90px;
+              margin-right: 270px;
+              input {
+                width: 17px;
+                height: 17px;
+                border: 0px;
+                cursor: pointer;
+              }
+              label {
+                font-family: "Microsoft YaHei";
+                font-size: 16px;
+                vertical-align: bottom;
+                cursor: pointer;
+              }
+            }
+            & > .box1 {
+              height: 56%;
+              font-size: 18px;
+              i {
+                color: #eb413d;
+              }
+              span {
+                margin-top: 50px;
+                margin-left: 86px;
+                line-height: 22px;
+              }
+              img {
+                vertical-align: bottom;
+                margin-right: 10px;
+              }
+            }
+            .box2 {
+              height: 44%;
+              font-size: 16px;
+              color: #666666;
+              span {
+                margin-top: 10px;
+                margin-left: 118px;
+                i {
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+
+          .account {
+            width: 100%;
+            height: 60px;
+            background-color: #f1f1f1;
+            font-size: 24px;
+            color: #c01133;
+            line-height: 60px;
+            span {
+              margin-left: 20px;
+              .decimal {
+                font-size: 22px;
+              }
+            }
+            button {
+              height: 100%;
+              width: 30%;
+              font-size: 22px;
+              border-radius: 0px;
+              float: right;
+            }
+          }
+        }
+      }
+
+      .record_page {
+        overflow-y: auto;
+        .card {
+          width: 94%;
+          height: 125px;
+          background-color: #f8f8f8;
+          color: #666666;
+          margin: 30px auto;
+          .card_child {
+            float: left;
+            height: 100%;
+          }
+          .card_left {
+            width: 60%;
+            margin-left: 36px;
+            .card_title {
+              width: 100%;
+              height: 50px;
+              font-size: 20px;
+              line-height: 40px;
+            }
+            .jinE {
+              width: 100%;
+              height: 28px;
+              margin-bottom: 16px;
+              color: #999999;
+              i {
+                color: #666666;
+              }
+              b {
+                color: #666666;
+                font-size: 14px;
+              }
+              .decimal {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .card_right {
+            width: 32%;
+            span {
+              display: inline-block;
+            }
+            .red {
+              width: 100%;
+              height: 80px;
+              font-size: 22px;
+              color: #ec133c;
+              line-height: 122px;
+              text-align: right;
+            }
+            .time_record {
+              width: 100%;
+              height: 50px;
+              font-size: 16px;
+              color: #999999;
+              line-height: 57px;
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

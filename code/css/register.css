@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/***********公用************/
+.public-box {
+  height: 100%;
+  float: left; }
+
+button {
+  font-family: 'Microsoft YaHei' !important;
+  border: 0px;
+  cursor: pointer;
+  background-color: #eb454f;
+  color: #fff;
+  border-radius: 5px; }
+  button:hover {
+    background-color: #c01133; }
+
+.public_jc {
+  min-width: 1190px;
+  height: 700px;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei'; }
+  .public_jc .public_jcBox {
+    width: 1195px;
+    height: 625px;
+    background-color: #ffffff;
+    position: relative;
+    margin: auto;
+    top: 30px;
+    overflow-y: auto; }
+
+.page_title {
+  font-family: 'Microsoft YaHei';
+  color: #333333;
+  float: left;
+  height: 30px;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+  border-left: 1px solid #cacaca;
+  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+  display: inline-block; }
+
+/***********条款与协议模块************/
+.text_pop {
+  min-width: 1190px;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei';
+  padding-bottom: 60px; }
+  .text_pop .text-box {
+    width: 1195px;
+    background-color: #ffffff;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    top: 30px;
+    color: #333;
+    padding: 40px 55px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500; }
+    .text_pop .text-box h4 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 700; }
+    .text_pop .text-box h5 {
+      font-weight: 500; }
+
+/***********用户注册头************/
+.register_title {
+  width: 140px; }
+
+/***********交易纠纷头************/
+.dispute_title {
+  width: 140px; }
+
+/***********防沉迷头************/
+.addiction_title {
+  width: 150px; }
+
+/***********交易纠纷************/
+.dispute_pop .dispute_text h4 {
+  font-size: 24px; }
+.dispute_pop .dispute_text h3 {
+  font-size: 21px;
+  font-weight: 500; }
+.dispute_pop .dispute_text ul li {
+  margin-top: -30px;
+  margin-left: 20px; }
+
+/***********用户服务协议************/
+.protocal_pop .protocal_text h4 {
+  font-weight: 500; }
+
+/***********权益保障************/
+.rights .rights_text {
+  font-size: 16px; }
+  .rights .rights_text h4 {
+    font-size: 24px; }
+
+.duanshou {
+  text-indent: 34px; }
+
+.bottom-bl {
+  width: 1195px !important; }
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,320 @@
+/**************公用部分****************/
+$gameDetail-width: 720px;
+.detail-pop div {
+  box-sizing: border-box;
+}
+
+.left-box {
+  width: 100%;
+  height: 340px;
+  border: 1px solid #cacaca;
+}
+
+.fanye {
+  margin-top: 140px;
+  width: 40px;
+  height: 80px;
+  //cursor: default;
+}
+
+/**************游戏详情****************/
+.gameDetail-title {
+  width: 140px;
+}
+
+.game_box{
+  height: 736px !important;
+  width:414px !important;
+  top:30px !important;
+  iframe{
+    width: 90%;
+    position: relative;
+    height: 667px;
+    width: 375px;
+    left:19.5px;
+    top:50px;
+    background: #777777;
+    border: 0;
+  }
+  .rotate{
+    position: absolute;
+    top:0;
+    background: url(../img/rotate.png) no-repeat;
+    width: 130px;
+    height: 30px;
+    background-size: auto  100%;
+    padding-left: 35px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
+
+
+.detail-pop {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  height: auto;
+  .gameDetail-box {
+    height: auto;
+    top: 20px;
+    .gameDetail-left {
+      float: left;
+      width: 915px;
+      height: auto;
+      margin-right: 30px;
+      .gameDetail-top {
+        margin-bottom: 20px;
+        padding: 30px;
+        height: auto;
+        display: inline-table;
+        &>i {
+          width: 110px;
+          float: left;
+          margin-right: 30px;
+          &>img{
+            width: 110px;
+            height: 110px;
+          }
+        }
+        .detail-text {
+          width: 713px;
+          float: left;
+          font-size: 15px;
+          color: #999999;
+          line-height: 26px;
+          .jieshao {
+            h1 {
+              width: 100%;
+              height: 20px;
+              display: inline-block;
+              text-align: left;
+              font-size: 20px;
+              line-height: 20px;
+              color: #666666;
+              font-weight: 500;
+              margin-bottom: 7px;
+            }
+            p {
+              margin-top: 10px;
+              margin-bottom: 26px;
+            }
+          }
+
+          .kaishi {
+            width: 100%;
+            height: 60px;
+            margin-top: 50px;
+            &>button {
+              float: left;
+              width: 270px;
+              height: 45px;
+              font-size: 24px;
+              line-height: 45px;
+              margin-right: 50px;
+              background-color: #fff;
+              border: 1px solid #eb454f;
+              color: #eb454f;
+              b{
+                display: inline-block;
+                vertical-align: bottom;
+                width: 20px;
+                height: 45px;
+                background: url("../img/blb-icon.png") no-repeat center;
+                margin-right: 10px;
+              }
+              &:hover {
+                background-color: #fff;
+              }
+            }
+
+            span {
+              float: left;
+              & > img {
+                cursor: pointer;
+              }
+              & > div {
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+      }
+      .gameDetail-bottom {
+        height: 360px;
+        .detail-left {
+          float: left;
+          background-image: url("../img/left2.png");
+        }
+        .detail-right {
+          float: right;
+          background-image: url("../img/right2.png");
+        }
+        .gameDetail-show {
+          width: 516px;
+          height: 252px;
+          float: left;
+          margin-top: 50px;
+          margin-left: 150px;
+          overflow: hidden;
+          .detail-slide{
+            height: 252px;
+            transition: left 0.4s;
+            position: relative;
+            left: 0px;
+            &>div{
+              position: absolute;
+              width: 516px;
+              height: 252px;
+              display: none;
+              &>img{
+                width: 516px;
+                height: 252px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .gameDetail-right {
+      float: left;
+      width: 250px;
+      height: $gameDetail-width;
+      border: 1px solid #cacaca;
+      color: #999999;
+      font-size: 14px;
+      .tuijian-title {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #666666;
+        font-size: 20px;
+        background-color: #f7f7f7;
+      }
+      span {
+        cursor: pointer;
+        a {
+          color: #999;
+          &>img{
+            width: 80px;
+            height: 80px;
+          }
+          & > div {
+            overflow: hidden;
+            width: 84px;
+            height: 18px;
+            text-align: center;
+          }
+          &:hover {
+            color: #eb454f;
+          }
+        }
+      }
+
+      .tuijian-left {
+        float: left;
+        margin-bottom: 26px;
+        margin-left: 28px;
+      }
+      .tuijian-right{
+        float: right;
+        margin-bottom: 26px;
+        margin-right: 28px;
+      }
+      .tuijian-first{
+        margin-top: 26px;
+      }
+    }
+  }
+}
+
+/**********确认购买框************/
+.buy {
+  .buy_box {
+    width: 720px;
+    height: 360px;
+    .buy-title {
+      box-sizing: border-box;
+      width: 100%;
+      height: 70px;
+      padding-left: 40px;
+      line-height: 70px;
+      background-color: #f5f5f5;
+      font-size: 18px;
+      color: #c01133;
+      i {
+        font-weight: 700;
+      }
+      b {
+        vertical-align: top;
+        display: inline-block;
+        width: 20px;
+        height: 70px;
+        background: url(../img/blb-icon.png) no-repeat center;
+        margin-left: 10px;
+      }
+    }
+    .buy-text {
+      width: 100%;
+      height: 200px;
+      font-size: 20px;
+      line-height: 200px;
+      text-align: center;
+      color: #666;
+      i {
+        color: #333;
+      }
+    }
+    .buy-bottom {
+      width: 100%;
+      height: 81px;
+      border-radius:0 0 15px 15px;
+      background-color: #f5f5f5;
+      span {
+        width: 220px;
+        margin-top: 18px;
+        font-size: 20px;
+        a{
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #fff;
+        }
+        &:first-child{
+          float: left;
+          margin-left: 50px;
+          background-color: #fff;
+          color: #eb454f;
+          border: 1px solid #eb454f;
+        }
+        &:last-child{
+          float: right;
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+}
+
+//扫一扫弹窗
+.saoyisao{
+  &>div{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    font-size: 32px;
+    color: #666;
+    line-height: 40px;
+    padding-top: 20px;
+    &>h1{
+      margin-bottom: 20px;
+    }
+    &>img{
+      width: 280px;
+      height: 280px;
+    }
+  }
+}

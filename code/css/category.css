@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/********************公共部分*********************/
+.category-active {
+  background-color: #fff;
+  color: #eb454f !important; }
+
+.active {
+  color: #fff !important;
+  background-color: #eb454f; }
+
+.tap-category {
+  font-family: "Microsoft YaHei";
+  width: 100%;
+  height: 50px;
+  background-color: #eb454f; }
+  .tap-category .tap-in {
+    height: 100%;
+    width: 1195px;
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px; }
+    .tap-category .tap-in i {
+      margin-right: 40px; }
+    .tap-category .tap-in a {
+      display: inline-block;
+      width: 70px;
+      height: 30px;
+      margin-right: 40px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff; }
+      .tap-category .tap-in a:hover {
+        background-color: #ffffff;
+        color: #eb454f; }
+
+/********************游戏分类*********************/
+.title-image-category {
+  width: 100%;
+  height: 300px;
+  background: url("../img/banner/banner0.png") no-repeat center; }
+
+.category-pop {
+  background-color: #ffffff;
+  height: auto;
+  padding-bottom: 30px; }
+  .category-pop .main-category {
+    height: auto;
+    top: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #cacaca;
+    overflow: hidden; }
+    .category-pop .main-category > span {
+      width: 520px;
+      height: 120px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #999999; }
+      .category-pop .main-category > span > a {
+        float: left;
+        margin: 20px;
+        cursor: pointer; }
+        .category-pop .main-category > span > a img {
+          width: 80px;
+          height: 80px; }
+      .category-pop .main-category > span .category-middle {
+        display: inline-block;
+        padding-top: 20px;
+        width: 280px; }
+        .category-pop .main-category > span .category-middle a {
+          font-size: 20px;
+          color: #333;
+          font-weight: 500;
+          cursor: pointer; }
+          .category-pop .main-category > span .category-middle a:hover {
+            color: #eb454f; }
+        .category-pop .main-category > span .category-middle p {
+          overflow: hidden;
+          margin-top: 12px;
+          height: 18px; }
+          .category-pop .main-category > span .category-middle p .fire {
+            width: 15px;
+            height: 17px;
+            margin-right: 10px; }
+      .category-pop .main-category > span > span {
+        display: inline-block;
+        width: 70px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #eb454f;
+        background-color: #ffffff;
+        color: #eb454f;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        float: right;
+        margin: 44px 20px 44px 0; }
+        .category-pop .main-category > span > span a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #eb454f; }
+          .category-pop .main-category > span > span a:hover {
+            background-color: #eb454f;
+            color: #fff !important; }
+    .category-pop .main-category .gameCard-left {
+      float: left;
+      margin: 20px 50px 20px 30px; }
+    .category-pop .main-category .gameCard-right {
+      float: right;
+      margin: 20px 40px 20px 0; }
+
+.search-pop .search-box .exist-search > h2 {
+  color: #999;
+  padding-top: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  font-size: 20px; }
+  .search-pop .search-box .exist-search > h2 > i {
+    color: #eb454f; }
+
+/*# sourceMappingURL=category.css.map */
